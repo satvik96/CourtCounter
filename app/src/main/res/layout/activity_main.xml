@@ -1,0 +1,140 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="horizontal">
+
+<LinearLayout
+    android:layout_width="0dp"
+    android:layout_weight="1"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:layout_marginTop="10dp"
+    android:layout_marginLeft="15dp"
+    android:layout_marginRight="15dp"
+    tools:context="com.example.satvik.courtcounter.MainActivity">
+
+
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Team A"
+        android:textSize="34sp"
+        android:gravity="center_horizontal"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentStart="true" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="0"
+        android:padding="16dp"
+        android:textSize="56sp"
+        android:gravity="center_horizontal"
+        android:layout_below="@+id/team_a_score"
+        android:layout_alignParentStart="true" />
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="+3 points"
+        android:textSize="24sp"
+        android:id="@+id/button3a"
+        android:padding="16dp"
+        android:layout_below="@+id/team_a_score"
+        android:layout_alignParentStart="true" />
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="+2 points"
+        android:id="@+id/button2a"
+        android:textSize="24sp"
+        android:padding="16dp"
+        android:layout_below="@+id/button3a"
+        android:layout_alignParentStart="true" />
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="+Free throw"
+        android:id="@+id/button1a"
+        android:textSize="24sp"
+        android:padding="16dp"
+        android:layout_below="@+id/button2a"
+        android:layout_alignParentStart="true" />
+
+
+
+</LinearLayout>
+
+
+    <LinearLayout
+
+        android:layout_width="0dp"
+        android:layout_weight="1"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:layout_marginTop="10dp"
+        android:layout_marginLeft="15dp"
+        android:layout_marginRight="15dp"
+        tools:context="com.example.satvik.courtcounter.MainActivity">
+
+
+
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Team B"
+
+            android:textSize="34sp"
+            android:gravity="center_horizontal"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentStart="true" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="0"
+            android:textSize="56sp"
+            android:padding="16dp"
+            android:gravity="center_horizontal"
+            android:layout_below="@+id/team_b_score"
+            android:layout_alignParentStart="true" />
+
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="+3 points"
+            android:textSize="24sp"
+            android:padding="16dp"
+            android:id="@+id/button3b"
+            android:layout_below="@+id/team_b_score"
+            android:layout_alignParentStart="true" />
+
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="24sp"
+            android:padding="16dp"
+            android:text="+2 points"
+            android:id="@+id/button2b"
+            android:layout_below="@+id/button3b"
+            android:layout_alignParentStart="true" />
+
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="+Free throw"
+            android:id="@+id/button1b"
+            android:textSize="24sp"
+            android:padding="16dp"
+            android:layout_below="@+id/button2b"
+            android:layout_alignParentStart="true" />
+    </LinearLayout>
+
+
+    </LinearLayout>
